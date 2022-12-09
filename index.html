@@ -2,6 +2,15 @@
 <html lang="en">
 
 <head>
+  <!-- Google Analytics Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WH50N05RHX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-WH50N05RHX');
+  </script>
+  
   <meta charset="utf-8">
   <title>Taylor Hamilton</title>
   <meta name="description" content="Software Development Professional" />
@@ -22,24 +31,6 @@
   <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
   <script src="https://use.fontawesome.com/66943e0bb8.js"></script>
   <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-
-  <!-- Google Analytics -->
-  <script>
-    (function (i, s, o, g, r, a, m) {
-      i['GoogleAnalyticsObject'] = r;
-      i[r] = i[r] || function () {
-        (i[r].q = i[r].q || []).push(arguments)
-      }, i[r].l = 1 * new Date();
-      a = s.createElement(o),
-        m = s.getElementsByTagName(o)[0];
-      a.async = 1;
-      a.src = g;
-      m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-    ga('create', 'UA-104777655-1', 'auto');
-    ga('send', 'pageview');
-  </script>
-
 </head>
 
 <body>
@@ -121,7 +112,7 @@
           <div class="col-md-3" data-aos="zoom-in">
             <div class="skill skill-radius  skill-primary">
               <div class="skill-content">
-                <h3 class="lead">Fishing</h3>
+                <h3 class="lead">Football</h3>
               </div>
             </div>
           </div>
@@ -141,6 +132,7 @@
               </div>
             </div>
           </div>
+
         </div>
       </div>
     </div>
@@ -164,7 +156,8 @@
             </pattern>
           </defs>
           <text text-anchor="middle" x="50" y="15" font-size="14" fill="url(#wave2)" fill-opacity="0.6">SKILLS</text>
-          <text text-anchor="middle" x="50" y="15" font-size="14" fill="url(#gradient2)" fill-opacity="0.1">SKILLS</text>
+          <text text-anchor="middle" x="50" y="15" font-size="14" fill="url(#gradient2)"
+            fill-opacity="0.1">SKILLS</text>
         </svg>
       </h1>
       <br>
@@ -524,6 +517,21 @@
             </div>
           </li>
 
+          <li class="timeline" div data-aos="zoom-in">
+            <div class="timeline-badge primary">
+              <i class="fa fa-briefcase" aria-hidden="true"></i>
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4 class="timeline-title">Senior Software Engineer at Microsoft</h4>
+                <p>
+                  <small class="text-muted">
+                    <i class="glyphicon glyphicon-time"></i> Summer 2022</small>
+                </p>
+              </div>
+            </div>
+          </li>
+
         </ul>
       </div>
     </div>
@@ -594,8 +602,7 @@
                 </span>
                 <h4 class="text-center">Youtube Music Toolset</h4>
                 <p>A command line toolset written in Python to help manage a personal Youtube Music library</p>
-                <a href="https://github.com/Tayham/Youtube-Music-Tools"
-                  class="btn btn-primary">GitHub</a>
+                <a href="https://github.com/Tayham/Youtube-Music-Tools" class="btn btn-primary">GitHub</a>
               </div>
               <div class="progress">
                 <div class="progress-bar bg-success" role="progressbar" style="width:100%">
@@ -799,7 +806,7 @@
             'November', 'December'
           ];
           var dateUpdated = new Date(document.lastModified);
-          with(dateUpdated) {
+          with (dateUpdated) {
             document.write("Last updated " + months[getMonth()] + ' ' + getDate() + ', ' + getFullYear())
           }
         </script>
@@ -817,11 +824,11 @@
     integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
     integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous">
-  </script>
+    </script>
   <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
     integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous">
-  </script>
+    </script>
   <script src="scripts.js"></script>
 
 </body>
